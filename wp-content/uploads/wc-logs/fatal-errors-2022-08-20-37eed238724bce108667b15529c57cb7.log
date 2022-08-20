@@ -1,0 +1,24 @@
+2022-08-20T03:42:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\techcell\wp-content\themes\easytec_tiendavirtual\functions.php:413
+Stack trace:
+#0 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(307): easytec_productos_relacionados('')
+#1 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\techcell\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techcell\wp-content\themes\storefront\inc\storefront-template-functions.php(423): do_action('storefront_post...')
+#4 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(307): storefront_post_content('')
+#5 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\techcell\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\techcell\wp-content\themes\storefront\content.php(20): do_action('storefront_loop...')
+#8 C:\xampp\htdocs\techcell\wp-includes\template.php(772): require('C:\\xamp in C:\xampp\htdocs\techcell\wp-content\themes\easytec_tiendavirtual\functions.php on line 413
+
+2022-08-20T03:43:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\xampp\htdocs\techcell\wp-content\themes\easytec_tiendavirtual\functions.php:413
+Stack trace:
+#0 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(307): easytec_productos_relacionados('')
+#1 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\techcell\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techcell\wp-content\themes\storefront\inc\storefront-template-functions.php(423): do_action('storefront_post...')
+#4 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(307): storefront_post_content('')
+#5 C:\xampp\htdocs\techcell\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\techcell\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\techcell\wp-content\themes\storefront\content.php(20): do_action('storefront_loop...')
+#8 C:\xampp\htdocs\techcell\wp-includes\template.php(772): require('C:\\xamp in C:\xampp\htdocs\techcell\wp-content\themes\easytec_tiendavirtual\functions.php on line 413
+
